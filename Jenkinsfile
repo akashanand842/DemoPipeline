@@ -1,7 +1,5 @@
-pipeline {
-    agent any
-
-    stages {
+node {
+   
         stage('Git') {
  
                 // Get some code from a GitHub repository
@@ -20,5 +18,4 @@ pipeline {
             
            
         }
-    }
 }
